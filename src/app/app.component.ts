@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Directive';
+  colorFlag : Boolean = true;
+  getColor(){
+    return this.colorFlag;
+  }
+  // colorFlag1 : Boolean = false;
+  // getColor1(){
+  //   return this.colorFlag1;
+  // }
 }
